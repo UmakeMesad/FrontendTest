@@ -1,0 +1,197 @@
+::-webkit-scrollbar {
+    width: 10px;
+    
+    background-color: transparent;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: "Public Sans", sans-serif;
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+}
+.container{
+    height: 100%; 
+    width: 100%;
+}
+.workspace{
+    width: 100%;
+    display: grid;
+    grid-template-columns: .1fr .5fr;
+}
+.left-workspace{
+    width: 100%;
+    height: 100vh;
+    background-color:#191718;
+}
+
+.home button{
+    position: relative;
+    padding: 0.5rem;
+    width: 9.375rem;
+    height: 2.75rem;
+    border-bottom: 1px solid #434343;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-right: 4em;
+    color: #ffffff;
+    transition: 0.25s;
+    background-color: #000000;
+
+}
+.home :hover{
+    background-color: #5C5C5C;
+}
+.services button{
+    position: relative;
+    padding: 0.5rem;
+    width: 9.375rem;
+    height: 2.75rem;
+    border-bottom: 1px solid #434343;
+    padding-right: 3.3em;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    transition: 0.25s;
+    background-color: #000000;
+}
+.services :hover{
+    background-color: #5C5C5C;
+}
+.news button{
+    position: relative;
+    padding: 0.5rem;
+    width: 9.375rem;
+    height: 2.75rem;
+    padding-right: 4em;
+    border-bottom: 1px solid #434343;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    transition: 0.25s;
+    background-color: #000000;
+}
+.news :hover{
+    background-color: #5C5C5C;
+}
+.blog button{
+    padding: 0.5rem;
+    width: 9.375rem;
+    height: 2.75rem;
+    border-bottom: 1px solid #434343;
+    text-decoration: none;
+    padding-right: 4.5em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    transition: 0.25s;
+    background-color: #000000;
+}
+.blog :hover{
+    background-color: #5C5C5C;
+}
+.contact button{
+    padding: 0.5rem;
+    width: 9.375rem;
+    height: 2.75rem;
+    border-bottom: 1px solid #434343;
+    padding-right: 3.3em;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    transition: 0.25s;
+    background-color: #000000;
+}
+.contact :hover{
+    background-color: #5C5C5C;
+}
+.right-workspace{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.img{
+    width: 19.375rem;
+    height: 7.625rem;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45.563rem;
+    top: 5%;
+}
+.text-background{
+    background-color: #EFEFEF;
+    width: 94.375rem;
+    height: 25.125rem;
+    align-items: center;
+    justify-content: center;
+    margin-top:12.125rem;
+    margin-left: 6.063rem;
+}
+.text{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight:43.75rem;
+    line-height: 1.313rem;
+    color: #000000;
+    top:40%;
+    text-align: center;
+    padding-top: 2em;
+}
+.text h1{
+    font-size: 1.125rem;
+    padding-bottom:1rem;
+}
+.small-text{
+    margin-left: 6.063rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 2.5rem;
+}
+.small-text-img1{
+    margin-top: 18px;
+    display: flex;
+}
+.small-text-img2{
+    margin-top: 1.125rem;
+    display: flex;
+}
+.small-text-img3{
+    margin-top: 1.125rem;
+    display: flex;
+}
+.footer-right-workspace{
+    margin-top: 11.375rem;
+    height: 4.938rem;
+    border-top: 1px solid #DEDEDE;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
